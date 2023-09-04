@@ -33,6 +33,7 @@
                 "injectTo": [
                     "source.js",
                     "source.js.jsx",
+                    "source.ui.tsx",
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
@@ -89,13 +90,15 @@
                     "meta.embedded.block.dart": "dart",
                     "meta.embedded.block.glsl": "glsl",
                     "meta.embedded.block.liquid": "liquid",
-                    "meta.embedded.block.sparql": "sparql"
+                    "meta.embedded.block.sparql": "sparql",
+                    "meta.embedded.block.styl": "stylus"
                 }
             },
             {
                 "injectTo": [
                     "source.js",
                     "source.js.jsx",
+                    "source.ui.tsx",
                     "source.jsx",
                     "source.ts",
                     "source.tsx",
