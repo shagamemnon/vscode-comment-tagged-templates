@@ -972,6 +972,28 @@
                 }
             ]
         },
+        "commentTaggedTemplate-styl": {
+            "name": "string.js.taggedTemplate.commentTaggedTemplate.stylus",
+            "contentName": "meta.embedded.block.stylus",
+            "begin": "(?i)(\\*\\s*\\b(?:styl)\\b\\s*\\*/)\\s*(`)",
+            "beginCaptures": {
+                "1": {
+                    "name": "comment.block.ts"
+                },
+                "2": {
+                    "name": "punctuation.definition.string.template.begin.js"
+                }
+            },
+            "end": "(?=`)",
+            "patterns": [
+                {
+                    "include": "source.css.stylus"
+                },
+                {
+                    "match": "."
+                }
+            ]
+        },
         "commentTaggedTemplate-perl6": {
             "name": "string.js.taggedTemplate.commentTaggedTemplate.perl6",
             "contentName": "meta.embedded.block.perl6",
