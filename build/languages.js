@@ -49,6 +49,7 @@ const languages = [
     { name: 'mjml', language: 'mjml', identifiers: ['mjml'], source: 'source.mjml' },
     { name: 'objc', language: 'objc', identifiers: ['objectivec', 'objective-c', 'mm', 'objc', 'obj-c', 'm', 'h'], source: 'source.objc' },
     { name: 'scss', language: 'scss', identifiers: ['scss'], source: 'source.css.scss' },
+    { name: 'styl', language: 'stylus', identifiers: ['stylus'], source: 'source.css.stylus' },
     { name: 'perl6', language: 'perl6', identifiers: ['perl6', 'p6', 'pl6', 'pm6', 'nqp'], source: 'source.perl.6' },
     { name: 'powershell', language: 'powershell', identifiers: ['powershell', 'ps1', 'psm1', 'psd1'], source: 'source.powershell' },
     { name: 'python', language: 'python', identifiers: ['python', 'py', 'py3', 'rpy', 'pyw', 'cpy', 'SConstruct', 'Sconstruct', 'sconstruct', 'SConscript', 'gyp', 'gypi'], source: 'source.python' },
